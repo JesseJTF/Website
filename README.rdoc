@@ -1,27 +1,10 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello People!
 
-Things you may want to cover:
+This is an ecommerce site built with ruby/rails, javascript, angular, and some remote payment method. It'll be beautiful once it's done.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Jesse Freeman
 
 
 Please feel free to use a different markup language if you do not plan to run
