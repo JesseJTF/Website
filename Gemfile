@@ -10,12 +10,12 @@ gem 'bootstrap-sass', '3.3.1'
 #for font and stuff
 gem 'font-awesome-sass', '4.4.0'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '1.3.0'
+gem 'uglifier', '~>2.7'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', ' 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'heroku', '3.4.2'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -53,4 +53,6 @@ end
 group :production do 
   gem 'pg'
   gem 'rails_12factor'
+  gem 'thin'
 end
+
