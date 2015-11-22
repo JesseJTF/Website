@@ -2,3 +2,21 @@
     <h1> Welcome to A Web Dev Team</h1>
     <h3>Your personal channel to fix your software problems.</h3>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+            <h2  class="text-center">Basic Membership</h2>
+            <h4 class="text-cente"> Sign-up for Free and get help with all your technical needs!</h4>
+            <br/>
+            <%= link_to "Sign Up for Free", new_user_registration_path, class: 'btn btn-warning btn-lg btn-block'  %>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center"> Pro Membership</h2>
+            <h4 class="text-cente"> Get discounted ticket prices and preference over non-pro accounts when it  comes to getting your problem fixed.</h4>
+            <br/>
+            <%= link_to "Sign Up for Pro", new_user_registration_path, class: 'btn btn-warning btn-lg btn-block'  %>
+        </div>
+    </div>
+</div>
