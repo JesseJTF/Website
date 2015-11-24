@@ -30,7 +30,7 @@ gem 'sdoc', '0.4.0', group: :doc
 #used for login and registering and a whole shabang
 gem 'devise', '3.5.2'
 #used for payments
-gem 'stripe', '1.31.0'
+#gem 'stripe', '1.31.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
