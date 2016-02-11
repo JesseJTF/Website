@@ -5,13 +5,54 @@
 
 body {
     //Thanks @_ighosh
-    background: #ffb347; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ffb347 , #ffcc33); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #ffb347 , #ffcc33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fff;
 }
 
 .alert-notice{
       color: #3c763d;
       background-color: #dff0d8;
       border-color: #d6e9c6;
+}
+
+.jumbotron {
+   background-color: #00B8E6;
+   color: #fff;
+   padding: 15% !important;
+   text-align: center;
+ }
+ 
+ .a{
+  padding: 7%;
+}
+
+.navbar {
+   margin-bottom: 0;
+   background-color: #00B8E6;
+   z-index: 9999;
+   border: 0;
+   font-size: 12px !important;
+   line-height: 1.42857143 !important;
+   letter-spacing: 4px;
+   border-radius: 0;
+ }
+ 
+ .navbar li a,
+ .navbar .navbar-brand {
+   color: #fff !important;
+ }
+ 
+ .navbar-nav li a:hover,
+ .navbar-nav li.active a {
+   color: #00B8E6 !important;
+   background-color: #fff !important;
+ }
+ 
+ .navbar-default .navbar-toggle {
+   border-color: transparent;
+   color: #fff !important;
+ }
+ 
+.but {
+    background: #000;
+    color: #fff;
 }
